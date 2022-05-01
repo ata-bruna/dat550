@@ -1,0 +1,325 @@
+Cluster 0
+ got
+ make
+ sure
+ make sure
+ get
+ people
+ thats
+ look
+ good
+ think
+
+
+Cluster 1
+ know
+ country
+ time
+ us
+ make
+ america
+ way
+ government
+ world
+ look
+
+
+Cluster 2
+ states
+ united
+ united states
+ president united states
+ president united
+ president
+ america
+ senate
+ world
+ think
+
+
+Cluster 3
+ get
+ going
+ done
+ people
+ tax
+ economy
+ back
+ want
+ job
+ make
+
+
+Cluster 4
+ nation
+ world
+ one
+ think
+ us
+ future
+ people
+ number
+ president
+ country
+
+
+Cluster 5
+ going
+ going make
+ make
+ think
+ say
+ people
+ keep
+ country
+ hes
+ know
+
+
+Cluster 6
+ lot
+ people
+ things
+ theres
+ know
+ think
+ work
+ got
+ better
+ done
+
+
+Cluster 7
+ one
+ number
+ thing
+ another
+ thats
+ think
+ things
+ country
+ day
+ make
+
+
+Cluster 8
+ want
+ want make
+ make
+ people
+ sure
+ see
+ make sure
+ us
+ thats
+ thank
+
+
+Cluster 9
+ would
+ think
+ like
+ say
+ us
+ people
+ president
+ country
+ could
+ make
+
+
+Cluster 10
+ need
+ think
+ kind
+ people
+ make
+ going
+ thats
+ believe
+ help
+ strong
+
+
+Cluster 11
+ said
+ president
+ would
+ know
+ going
+ thats
+ governor
+ thing
+ iraq
+ time
+
+
+Cluster 12
+ believe
+ country
+ would
+ people
+ right
+ government
+ thats
+ also
+ better
+ ought
+
+
+Cluster 13
+ people
+ care
+ health
+ health care
+ million
+ million people
+ country
+ many
+ work
+ insurance
+
+
+Cluster 14
+ american
+ american people
+ people
+ think
+ know
+ want
+ going
+ make
+ government
+ put
+
+
+Cluster 15
+ let
+ tell
+ say
+ give
+ first
+ one
+ example
+ make
+ said
+ people
+
+
+Cluster 16
+ thats
+ think
+ way
+ going
+ america
+ right
+ country
+ exactly
+ us
+ kind
+
+
+Cluster 17
+ percent
+ rate
+ tax
+ unemployment
+ year
+ increase
+ cut
+ people
+ country
+ businesses
+
+
+Cluster 18
+ president
+ vice president
+ vice
+ think
+ made
+ right
+ must
+ since
+ know
+ people
+
+
+Cluster 19
+ think
+ ought
+ important
+ think important
+ know
+ right
+ good
+ better
+ people
+ country
+
+
+Cluster 20
+ years
+ four years
+ four
+ last
+ years ago
+ ago
+ eight years
+ eight
+ next
+ ten
+
+
+Cluster 21
+ mr
+ president
+ bush
+ ford
+ said
+ think
+ would
+ country
+ made
+ know
+
+
+Cluster 22
+ talk
+ lets
+ let
+ time
+ know
+ think
+ want
+ going
+ get
+ people
+
+
+Cluster 23
+ difference
+ big
+ make
+ think
+ theres
+ thats
+ makes
+ one
+ know
+ us
+
+
+Cluster 24
+ go
+ go back
+ back
+ going
+ want
+ people
+ think
+ way
+ would
+ take
+
+

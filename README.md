@@ -16,7 +16,7 @@ This repository contains the files for the project entitled "Detect claims to fa
 - This project tackles the problem of text classification using multiple algorithms
 - The aim is to identify claims that should be fact checked in political debates
 - The data comprises claims extracted from all U.S. general election presidential debates (1960-2016)
-- The original data can be found at ClaimBuster's website [here](https://zenodo.org/record/3609356)
+- The original data is provided by ClaimBuster and can be found [here](https://zenodo.org/record/3609356)
 - The project was created using Python 3.9
 
 

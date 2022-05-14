@@ -6,10 +6,11 @@ This repository contains the files for the project entitled "Detect claims to fa
 
 
 * [General Info](#general-information)
+* [Additional Packages](#additional-packages)
 * [Models Used](#models-used)
 * [How to navigate the repository](#how-to-navigate-the-repository)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
+
 
 
 ## General Information
@@ -20,9 +21,30 @@ This repository contains the files for the project entitled "Detect claims to fa
 - The project was created using Python 3.9
 
 
+## Additional packages
+
+### Importing the pretrained weights for the embedding matrix
+
+To run the file [`2. word_embeddings_multi_class_pretrained.ipynb`](https://github.com/ata-bruna/dat550/blob/main/word%20embeddings/2.%20word_embeddings_multi_class_pretrained.ipynb) it is necessary to add the pretrained weights file to the data folder.
+
+The pretrained weights used in this report are from the [GloVe](https://nlp.stanford.edu/projects/glove/) model Which can be downloaded [here ](https://nlp.stanford.edu/data/glove.6B.zip).
+
+We chose the first option [glove.6B.zip](https://nlp.stanford.edu/data/glove.6B.zip), which contais Wikipedia 2014 + Gigaword 5 (6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download). This option contains 4 `.txt` files. We use the `glove.6B.100d.txt` as our sequences were padded to have `max_len =100`
+
+Once the zip file is downloaded, place the zip into the [`data`](https://github.com/ata-bruna/dat550/tree/main/data) folder and run the following code:
+
+```
+import os
+import zipfile
+with zipfile.ZipFile('../data/glove.zip', 'r') as zip_ref:
+    zip_ref.extractall('../data/glove')
+```
+The code is inidicated in the notebook, comment the block out and run it.
+
+
 ## Models Used
 
-### Feature based techniques - baseline model
+### Classification using sparse features - baseline model
 Various classifiers were tested, data was preprocessed using TD-IDF.
 
 1. SVM
@@ -36,13 +58,13 @@ Various classifiers were tested, data was preprocessed using TD-IDF.
 ### Deep learning techniques
 
 #### Neural networks using embedding layer - word embedding
-1. LSTM
-2. Bidirectional LSTM
-3. Stacked Bi-LSTM
-4. Convolutional Neural Network (CNN)
-5. CNN + LSTM
+1. Bidirectional LSTM
+2. Stacked Bi-LSTM
+3. Convolutional Neural Network (CNN)
+4. CNN + LSTM
 
 #### Tranformers Model
+1. BERT Model
 
 
 ## How to navigate the repository
@@ -56,7 +78,7 @@ The models import the data stored in data_preprocessing folder.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+
 
 Room for improvement:
 - Improvement to be done 1
@@ -65,12 +87,5 @@ Room for improvement:
 To do:
 - Feature to be added 1
 - Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
 

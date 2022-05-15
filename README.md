@@ -68,24 +68,24 @@ Various classifiers were tested, data was preprocessed using TD-IDF.
 
 
 ## How to navigate the repository
+
 - The raw data can be found in the [`data`](https://github.com/ata-bruna/dat550/tree/main/data) folder. 
 - All data cleaning steps are presented in the notebook stored in the [`data_preprocessing`](https://github.com/ata-bruna/dat550/tree/main/data_preprocessing) folder
 - The baseline model is stored in the [`baseline`](https://github.com/ata-bruna/dat550/tree/main/baseline) folder
 - Word embedding in the [`word embeddings`](https://github.com/ata-bruna/dat550/tree/main/word%20embeddings) folder 
-- Transformers are stored in the `transformers` folder
+- Transformers are stored in the [`transformers`](https://github.com/ata-bruna/dat550/tree/main/transformers) folder
 
-The models import the data stored in data_preprocessing folder.
+**NB!** The [GloVe zip file](https://nlp.stanford.edu/data/glove.6B.zip) must be stored in the is stored in [`data`](https://github.com/ata-bruna/dat550/tree/main/data) folder.
+
+**NB! 2** Both word embeddings and transformers model are applied to two different datasets. The file numbered as "1." cover the case where stopwords were removed and "2." the case where these words were kept. For both models keeping stop words resulted in a better result.
 
 
 ## Room for Improvement
-
 
 Room for improvement:
 - Improvement to be done 1
 - Improvement to be done 2
 
-To do:
-- Feature to be added 1
-- Feature to be added 2
+
 
 

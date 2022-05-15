@@ -27,7 +27,7 @@ This repository contains the files for the project entitled "Detect claims to fa
 
 ### Importing the pretrained weights for the embedding matrix
 
-To run the file [`2. word_embeddings_multi_class_pretrained.ipynb`](https://github.com/ata-bruna/dat550/blob/main/word%20embeddings/2.%20word_embeddings_multi_class_pretrained.ipynb) it is necessary to add the pretrained weights file to the data folder.
+To run the file [`2. word_embeddings_multi_class_pretrained.ipynb`](https://github.com/ata-bruna/dat550/blob/main/word%20embeddings/2.%20word_embeddings_multi_class_pretrained.ipynb)  and [`3. tuning_bi_lstm_model.ipynb`](https://github.com/ata-bruna/dat550/blob/main/word%20embeddings/3.%20tuning_bi_lstm_model.ipynb) it is necessary to add the pretrained weights file to the `data` folder.
 
 The pretrained weights used in this report are from the [GloVe](https://nlp.stanford.edu/projects/glove/) model Which can be downloaded [here ](https://nlp.stanford.edu/data/glove.6B.zip).
 

@@ -23,6 +23,8 @@ This repository contains the files for the project entitled "Detect claims to fa
 
 ## Additional packages
 
+- This project requires TensorFlow 2.3+, and Python 3.9.
+
 ### Importing the pretrained weights for the embedding matrix
 
 To run the file [`2. word_embeddings_multi_class_pretrained.ipynb`](https://github.com/ata-bruna/dat550/blob/main/word%20embeddings/2.%20word_embeddings_multi_class_pretrained.ipynb) it is necessary to add the pretrained weights file to the data folder.
@@ -40,6 +42,14 @@ with zipfile.ZipFile('../data/glove.zip', 'r') as zip_ref:
     zip_ref.extractall('../data/glove')
 ```
 The code is inidicated in the notebook, comment the block out and run it.
+
+
+### Importing the transformers model
+
+To run the transformers model the Huggingface model must be installed. Please run 
+```
+pip install transformers
+```
 
 
 ## Models Used

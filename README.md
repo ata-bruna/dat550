@@ -23,7 +23,7 @@ This repository contains the files for the project entitled "Detect claims to fa
 
 ## Additional packages
 
-- This project requires TensorFlow 2.3+, and Python 3.9.
+- This project requires TensorFlow 2.3+, Sklearn libraries. As well as Python 3.9.
 
 ### Importing the pretrained weights for the embedding matrix
 
@@ -92,9 +92,9 @@ Various classifiers were tested, data was preprocessed using TD-IDF.
 
 ## Room for Improvement
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Run BERT model for more epochs
+- Fine tune BERT model parameters
+- Add more layers to the sequential model.
 
 
 
